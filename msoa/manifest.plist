@@ -17,7 +17,7 @@
         <key>metadata</key>
         <dict>
             <key>bundle-identifier</key>
-            <string>com.nccc.ncccmsoa</string>
+            <string>com.nccc.msoa.dxc</string>
             <key>bundle-version</key>
             <string>1.4</string>
             <key>kind</key>
