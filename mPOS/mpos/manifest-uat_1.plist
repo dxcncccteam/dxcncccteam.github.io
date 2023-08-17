@@ -11,7 +11,8 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/s/bbl5jcg5becg6lw/NCCCmPOS_UAT_2.6.7_20230426</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/tc02chnt8ofkv0632crkf/NCCCmPOS_SIT_b111</string>
+                
             </dict>
         </array>
         <key>metadata</key>
