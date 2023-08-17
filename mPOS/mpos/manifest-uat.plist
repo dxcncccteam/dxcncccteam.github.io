@@ -17,7 +17,7 @@
         <key>metadata</key>
         <dict>
             <key>bundle-identifier</key>
-            <string>com.nccc.ncccmpos</string>
+            <string>com.dxc.mpos</string>
             <key>bundle-version</key>
             <string>2.6.7</string>
             <key>kind</key>
