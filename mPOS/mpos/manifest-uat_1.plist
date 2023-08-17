@@ -11,14 +11,14 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/scl/fi/prfvkuivmu0hfxw0vacr4/NCCCmPOS_b111d.ipa?rlkey=p5tyudgbyme9cpwwmjvzauxu0</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/tc02chnt8ofkv0632crkf/NCCCmPOS_SIT_b111.ipa?rlkey=7m9ma90exl86yd0hvr310j8q4</string>
                 
             </dict>
         </array>
         <key>metadata</key>
         <dict>
             <key>bundle-identifier</key>
-            <string>com.nccc.ncccmpos</string>
+            <string>com.dxc.mpos</string>
             <key>bundle-version</key>
             <string>2.6.7</string>
             <key>kind</key>
