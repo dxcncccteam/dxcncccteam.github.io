@@ -11,15 +11,15 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/s/bveyzxk0dcna9qk/MSOA_1109</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/mm3q84pw227c3c0v027if/MSOA_UAT_1.5.2_M2023094.ipa?rlkey=60xen0idaa5kpuju72sf2d8st</string>
             </dict>
         </array>
         <key>metadata</key>
         <dict>
             <key>bundle-identifier</key>
-            <string>com.dxc.msoa</string>
+            <string>com.nccc.ncccmsoa</string>
             <key>bundle-version</key>
-            <string>1.4</string>
+            <string>1.5.2</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>
