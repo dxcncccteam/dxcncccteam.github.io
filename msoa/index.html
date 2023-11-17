@@ -36,6 +36,12 @@
         .floating-btn:active {
                 background: #007D63;
         }
+        li:nth-child(odd){
+                background: white;
+        }
+        li:nth-child(even){
+                background: lightgoldenrodyellow;
+        }
 </style>
 
 <body>
@@ -63,40 +69,11 @@
                                                 <div class="cell">
                                                         更新項目
                                                 </div>
-                                                <div class="cell">
+                                                <!-- <div class="cell">
                                                         下載
-                                                </div>
+                                                </div> -->
                                         </div>
-
-                                        <div class="row">
-                                                <div class="cell" data-title="App名稱">
-                                                        聯卡e客服
-                                                </div>
-                                                <div class="cell" data-title="支援系統">
-                                                        iOS
-                                                </div>
-                                                <div class="cell" data-title="環境">
-                                                        SIT
-                                                </div>
-                                                <div class="cell" data-title="App 版本">
-                                                        version 1.5.3<br>
-                                                        2023/11/15<br>
-                                                </div>
-                                                <div class="cell" data-title="需求單號">
-                                                        M2023169_R112302<br>
-                                                </div>
-                                                <div class="cell" data-title="更新項目">
-                                                        調整密碼長度<br>
-                                                </div>
-                                                <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist">
-                                                                Download
-                                                        </a>
-                                                </div>
-                                        </div>
-
-                                        <div class="row">
+                                        <li class="row" name="iOS-UAT">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -111,22 +88,49 @@
                                                         20231020<br>
                                                 </div>
                                                 <div class="cell" data-title="需求單號">
-                                                        M2023070 - R112126<br>
-                                                        M2023168 - R112300<br>
+                                                        <a href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-uat.plist">
+                                                                M2023070 - R112126<br>
+                                                                M2023168 - R112300<br>(Download)
+                                                        </a>
                                                 </div>
                                                 <div class="cell" data-title="更新項目">
                                                         - 部分介面與功能優化<br>
                                                         - 光盾檢測<br>
                                                 </div>
-                                                <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-uat.plist">
-                                                                Download
+                                                <!-- <div class="cell" data-title="下載">
+                                                        
+                                                </div> -->
+                                        </li>
+                                        <li class="row" name="iOS-SIT">
+                                                <div class="cell" data-title="App名稱">
+                                                        聯卡e客服
+                                                </div>
+                                                <div class="cell" data-title="支援系統">
+                                                        iOS
+                                                </div>
+                                                <div class="cell" data-title="環境">
+                                                        SIT
+                                                </div>
+                                                <div class="cell" data-title="App 版本">
+                                                        version 1.5.3<br>
+                                                        2023/11/17<br>
+                                                </div>
+                                                <div class="cell" data-title="需求單號">
+                                                        <a href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist">
+                                                                M2023169_R112302<br>(Download)
                                                         </a>
                                                 </div>
-                                        </div>
-
-                                        <!-- <div class="row">
+                                                <div class="cell" data-title="更新項目">
+                                                        調整密碼長度<br>
+                                                </div>
+                                                <!-- <div class="cell" data-title="下載">
+                                                        <a
+                                                                href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist">
+                                                                Download
+                                                        </a>
+                                                </div> -->
+                                        </li>
+                                        <!-- <div class="row" name="iOS-back up">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -141,20 +145,19 @@
                                                         2023/03/02<br>
                                                 </div>
                                                 <div class="cell" data-title="需求單號">
-
+                                                        <a href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-sit.plist">
+                                                                Download
+                                                        </a>
                                                 </div>
                                                 <div class="cell" data-title="更新項目">
                                                         latest
                                                 </div>
                                                 <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-sit.plist">
-                                                                Download
-                                                        </a>
+                                                        
                                                 </div>
                                         </div> -->
 
-                                        <div class="row">
+                                        <li class="row" name="Android-UAT">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -169,22 +172,20 @@
                                                         20231019<br>
                                                 </div>
                                                 <div class="cell" data-title="需求單號">
-                                                        M2023070 - R112126<br>
-                                                        M2023168 - R112300<br>
+                                                        <a href="https://drive.google.com/file/d/10TyJt8-rilbEk_J9EoHG_2_LGf7k3eEf/view?usp=share_link">
+                                                                M2023070 - R112126<br>
+                                                                M2023168 - R112300<br>(Download)
+                                                        </a>
                                                 </div>
                                                 <div class="cell" data-title="更新項目">
                                                         - 部分介面與功能優化<br>
                                                         - 光盾檢測<br>
                                                 </div>
-                                                <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="https://drive.google.com/file/d/10TyJt8-rilbEk_J9EoHG_2_LGf7k3eEf/view?usp=share_link">
-                                                                Download
-                                                        </a>
-                                                </div>
-                                        </div>
-
-                                        <div class="row" name="Android-UAT">
+                                                <!-- <div class="cell" data-title="下載">
+                                                        
+                                                </div> -->
+                                        </li>
+                                        <li class="row" name="Android-backUp">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -199,7 +200,10 @@
                                                         2023/04/22<br>
                                                 </div>
                                                 <div class="cell" data-title="需求單號">
-                                                        M2023021 - R112030<br>
+                                                        <a href="https://drive.google.com/file/d/1lV_HPRYUgJaBVjT9CsRZfWF4WO8dvKM-/view?usp=share_link">
+                                                                M2023021 - R112030<br>(Download)
+                                                        </a>
+                                                        
                                                 </div>
                                                 <div class="cell" data-title="更新項目">
                                                         - API33<br>
@@ -208,15 +212,8 @@
                                                         - 修正登入失敗三次的錯誤訊息(auth_API)<br>
                                                         - 重發啟用信找不到Email的回覆訊息(API)<br>
                                                 </div>
-                                                <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="https://drive.google.com/file/d/1lV_HPRYUgJaBVjT9CsRZfWF4WO8dvKM-/view?usp=share_link">
-                                                                Download
-                                                        </a>
-                                                </div>
-                                        </div>
-
-                                        <div class="row">
+                                        </li>
+                                        <li class="row" name="Android-SIT">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -231,7 +228,9 @@
                                                         2023032301<br>
                                                 </div>
                                                 <div class="cell" data-title="需求單號">
-                                                        M2023030-R112021<br>
+                                                        <a href="https://drive.google.com/file/d/1l5KRiwdgx_yBREoIO_0Lz4dv2ylpCmcD/view?usp=share_link">
+                                                                M2023030-R112021<br>(Download)
+                                                        </a> 
                                                 </div>
                                                 <div class="cell" data-title="更新項目">
                                                         - Use Dev google-service.json<br>
@@ -243,15 +242,11 @@
                                                         - 特店解約不可登入app<br>
 
                                                 </div>
-                                                <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="https://drive.google.com/file/d/1l5KRiwdgx_yBREoIO_0Lz4dv2ylpCmcD/view?usp=share_link">
-                                                                Download
-                                                        </a>
-                                                </div>
-                                        </div>
-
-                                        <div class="row">
+                                                <!-- <div class="cell" data-title="下載">
+                                                        
+                                                </div> -->
+                                        </li>
+                                        <li class="row" name="Android-backUp2">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -266,19 +261,18 @@
                                                         2023/10/04-02<br>
                                                 </div>
                                                 <div class="cell" data-title="需求單號">
-                                                        M2023168_R112300<br>
+                                                        <a href="https://drive.google.com/file/d/1_0rqc8mjddcv2QMVyXKJtdJU1wXgA6XK/view?usp=drive_link">
+                                                                M2023168_R112300<br>(Download)
+                                                        </a>
                                                 </div>
                                                 <div class="cell" data-title="更新項目">
                                                         基於先前的檢測結果進行修正資安需求<br>
                                                         For光盾複測使用<br>
                                                 </div>
-                                                <div class="cell" data-title="下載">
-                                                        <a
-                                                                href="https://drive.google.com/file/d/1_0rqc8mjddcv2QMVyXKJtdJU1wXgA6XK/view?usp=drive_link">
-                                                                Download
-                                                        </a>
-                                                </div>
-                                        </div>
+                                                <!-- <div class="cell" data-title="下載">
+                                                        
+                                                </div> -->
+                                        </li>
                                 </div>
                         </div>
                 </div>
