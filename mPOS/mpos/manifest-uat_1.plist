@@ -18,13 +18,13 @@
         <key>metadata</key>
         <dict>
             <key>bundle-identifier</key>
-            <string>com.dxc.mpos</string>
+            <string>com.nccc.ncccmpos</string>
             <key>bundle-version</key>
-            <string>2.6.7</string>
+            <string>2.6.8</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>
-            <string>mPOS_SIT</string>
+            <string>mPOS_UAT</string>
         </dict>
     </dict>
 </array>
