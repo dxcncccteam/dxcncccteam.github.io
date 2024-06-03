@@ -11,7 +11,7 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/scl/fi/ec82qy9rzii3en3vhn0mk/NcccMerchantQR_UAT_1.2.7_20231219.ipa?rlkey=ebzbax39tv0oiejzd6iowl657</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/p48i4eroaek7dp9sqfzoa/NcccMerchantQR_UAT_1.3.0_20240603.ipa?rlkey=moxv52qk4st8whntlv4qxuy7d</string>
             </dict>
         </array>
         <key>metadata</key>
@@ -19,11 +19,11 @@
             <key>bundle-identifier</key>
             <string>com.nccc.NcccMerchantQR</string>
             <key>bundle-version</key>
-            <string>1.2.8</string>
+            <string>1.3.0</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>
-            <string>QR收款_UAT_swift</string>
+            <string>QR收款_UAT</string>
         </dict>
     </dict>
 </array>
