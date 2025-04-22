@@ -11,7 +11,7 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/scl/fi/w2lzsomhbbt6nkynu0ttc/MSOA_UAT_1.5.7_20241202_FCM.ipa?rlkey=hwg91vi7cdwpruini9d4lutl2</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/c1j2dzp23vembvs0838vl/MSOA_UAT_1.5.8_20250422_xcode16.ipa?rlkey=l0i1imc81erw5a7r2q2bvfhon</string>
             </dict>
         </array>
         <key>metadata</key>
@@ -19,7 +19,7 @@
             <key>bundle-identifier</key>
             <string>com.nccc.ncccmsoa</string>
             <key>bundle-version</key>
-            <string>1.5.7</string>
+            <string>1.5.8</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>
