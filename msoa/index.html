@@ -72,31 +72,36 @@
                                                         更新項目
                                                 </div>
                                         </div>
-
-                                        <div v-for="item in datas" class="row" id="msoa">
-                                                <div v-for="item in datas" class="cell" data-title="App名稱">
-                                                        {{ appName }}
-                                                </div>
-                                                <div v-for="item in datas" class="cell" data-title="支援系統">
-                                                        {{ item.supSystem }}
-                                                </div>
-                                                <div v-for="item in datas" class="cell" data-title="環境">
-                                                        {{ item.env}}
-                                                </div>
-                                                <div v-for="item in datas" class="cell" data-title="App 版本">
-                                                        {{ item.appVersion}} <br>
-                                                        {{ item.checkValue}}
-                                                </div>
-                                                <div v-for="item in datas" class="cell" data-title="需求單號">
-                                                        <a :href="[item.download]">
-                                                                {{ item.ticketNumber }} (Download)
-                                                        </a>
-                                                </div>
-                                                <div v-for="item in datas" class="cell" data-title="更新項目">
-                                                        {{ item.changeLog }}
-                                                </div>
-                                        </div>
-
+                                
+                                                <ul id="msoa">
+                                                        <template v-for="(item, index) in datas" :key="index">
+                                                                <div class="row">
+                                                                        <div class="cell" data-title="App名稱">
+                                                                                {{ appName }}
+                                                                        </div>
+                                                                        <div class="cell" data-title="支援系統">
+                                                                                {{ item.supSystem }}
+                                                                        </div>
+                                                                        <div class="cell" data-title="環境">
+                                                                                {{ item.env }}
+                                                                        </div>
+                                                                        <div class="cell" data-title="App 版本">
+                                                                                {{ item.appVersion}} <br>
+                                                                                {{ item.checkValue}}
+                                                                        </div>
+                                                                        <div class="cell" data-title="需求單號">
+                                                                                <a :href="[item.download]">
+                                                                                        {{ item.ticketNumber }} (Download)
+                                                                                </a>
+                                                                        </div>
+                                                                        <div class="cell" data-title="更新項目">
+                                                                                {{ item.changeLog }}
+                                                                        </div>
+                                                                </div>
+                                                        </template>
+                                                </ul>
+                                        
+                                <!-- </template> -->
                                         <!-- <li class="row" name="iOS-UAT">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
