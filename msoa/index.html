@@ -71,12 +71,34 @@
                                                 <div class="cell">
                                                         更新項目
                                                 </div>
-                                                <!-- <div class="cell">
-                                                        下載
-                                                </div> -->
                                         </div>
 
-                                        <li class="row" name="iOS-UAT">
+                                        <div class="row" id="msoa">
+                                                <div v-for="item in datas" class="cell" data-title="App名稱">
+                                                    {{ appName }}
+                                                </div>
+                                                <div v-for="item in datas" class="cell" data-title="支援系統">
+                                                    {{ item.supSystem }}
+                                                </div>
+                                                <div v-for="item in datas" class="cell" data-title="環境">
+                                                    {{ item.env}}
+                                                </div>
+                                                <div v-for="item in datas" class="cell" data-title="App 版本">
+                                                    {{ item.appVersion}} <br>
+                                                    {{ item.checkValue}}
+                                                </div>
+                                                <div v-for="item in datas" class="cell" data-title="需求單號">
+                                                        <a
+                                                                :href="[item.download]">
+                                                                {{ item.ticketNumber }} (Download)
+                                                        </a>
+                                                </div>
+                                                <div v-for="item in datas" class="cell" data-title="更新項目">
+                                                        {{ item.changeLog }}
+                                                </div>
+                                        </div>
+
+                                        <!-- <li class="row" name="iOS-UAT">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -99,7 +121,7 @@
                                                 <div class="cell" data-title="更新項目">
                                                         - Xcode 16 升級<br>
                                                 </div>
-                                        </li>
+                                        </li> -->
                                         <!-- <li class="row" name="iOS">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
@@ -131,7 +153,7 @@
                                                 </div>
                                         </li> -->
 
-                                        <li class="row" name="Android-backUp">
+                                        <!-- <li class="row" name="Android-backUp">
                                                 <div class="cell" data-title="App名稱">
                                                         聯卡e客服
                                                 </div>
@@ -206,9 +228,9 @@
                                                 <div class="cell" data-title="更新項目">
                                                         - 升級API 34<br>
                                                 </div>
-                                                <!-- <div class="cell" data-title="下載">
+                                                <div class="cell" data-title="下載">
                                                         
-                                                </div> -->
+                                                </div>
                                         </li>
 
                                         <li class="row" name="iOS-back up">
@@ -259,9 +281,9 @@
                                                         - 使用UAT FCM config<br>
                                                         - 使用UAT application id<br>
                                                 </div>
-                                                <!-- <div class="cell" data-title="下載">
+                                                <div class="cell" data-title="下載">
                                                         
-                                                </div> -->
+                                                </div>
                                         </li>
                                         <li class="row" name="Android-backUp2">
                                                 <div class="cell" data-title="App名稱">
@@ -288,10 +310,10 @@
                                                         CVE 弱點修補<br>
                                                         use UAT FCM project<br>
                                                 </div>
-                                                <!-- <div class="cell" data-title="下載">
+                                                <div class="cell" data-title="下載">
                                                         
-                                                </div> -->
-                                        </li>
+                                                </div>
+                                        </li> -->
                                 </div>
                         </div>
                 </div>
@@ -301,4 +323,7 @@
         <script src="https://dxcncccteam.github.io/js/popper.js"></script>
         <script src="https://dxcncccteam.github.io/js/bootstrap.min.js"></script>
         <script src="https://dxcncccteam.github.io/js/select2.min.js"></script>
+        <script src="https://unpkg.com/vue@3"></script>
+        <script src="../msoa/AppInfo.js"></script>
+        <script>Vue.createApp(App).mount('#msoa')</script>
 </body>
