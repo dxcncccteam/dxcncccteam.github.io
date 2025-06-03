@@ -75,21 +75,20 @@
 
                                         <div class="row" id="msoa">
                                                 <div v-for="item in datas" class="cell" data-title="App名稱">
-                                                    {{ appName }}
+                                                        {{ appName }}
                                                 </div>
                                                 <div v-for="item in datas" class="cell" data-title="支援系統">
-                                                    {{ item.supSystem }}
+                                                        {{ item.supSystem }}
                                                 </div>
                                                 <div v-for="item in datas" class="cell" data-title="環境">
-                                                    {{ item.env}}
+                                                        {{ item.env}}
                                                 </div>
                                                 <div v-for="item in datas" class="cell" data-title="App 版本">
-                                                    {{ item.appVersion}} <br>
-                                                    {{ item.checkValue}}
+                                                        {{ item.appVersion}} <br>
+                                                        {{ item.checkValue}}
                                                 </div>
                                                 <div v-for="item in datas" class="cell" data-title="需求單號">
-                                                        <a
-                                                                :href="[item.download]">
+                                                        <a :href="[item.download]">
                                                                 {{ item.ticketNumber }} (Download)
                                                         </a>
                                                 </div>

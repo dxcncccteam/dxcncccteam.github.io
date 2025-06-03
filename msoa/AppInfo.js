@@ -1,8 +1,8 @@
-const App =  {
-    data(){
+const App = {
+    data() {
         return {
             appName: "聯卡e客服",
-            datas :[
+            datas: [
                 {
                     supSystem: 'Android',
                     env: 'UAT',
