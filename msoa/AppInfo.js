@@ -15,11 +15,11 @@ const App = {
                 {
                     supSystem: 'iOS',
                     env: 'UAT',
-                    appVersion: 'version 1.5.9',
-                    checkValue: '20250602',
-                    ticketNumber: 'M2025057_R114087',
-                    changeLog: '憑證更新',
-                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist',
+                    appVersion: 'version 1.5.10',
+                    checkValue: '20250708',
+                    ticketNumber: 'INT114120',
+                    changeLog: '修正聯絡客服功能失效之問題',
+                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-uat.plist',
                 },
                 {
                     supSystem: 'Android',
@@ -33,11 +33,11 @@ const App = {
                 {
                     supSystem: 'iOS',
                     env: 'UAT',
-                    appVersion: 'version 1.5.8',
-                    checkValue: '20250422',
-                    ticketNumber: 'M2024190_R113369',
-                    changeLog: 'Xcode 16升級',
-                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-uat.plist',
+                    appVersion: 'version 1.5.9',
+                    checkValue: '20250602',
+                    ticketNumber: 'M2025057_R114087',
+                    changeLog: '憑證更新',
+                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist',
                 },
                 {
                     supSystem: 'Android',
