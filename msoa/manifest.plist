@@ -11,7 +11,7 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/scl/fi/j3s9z8udd2nn5nuit5o6o/msoa_UAT_1.6.0_20251105_fixAPI.ipa?rlkey=qhy0hioel6urka2quy1905i77</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/fl1hsess0v1vmqyl8ptis/msoa_UAT_1.6.0_20251201_fixAPI.ipa?rlkey=7hl8p667juguxjlkr4apsqzg0</string>
             </dict>
         </array>
         <key>metadata</key>
@@ -19,7 +19,7 @@
             <key>bundle-identifier</key>
             <string>com.nccc.ncccmsoa</string>
             <key>bundle-version</key>
-            <string>1.5.9</string>
+            <string>1.6.0</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>

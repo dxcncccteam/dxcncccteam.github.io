@@ -16,7 +16,7 @@ const App = {
                     supSystem: 'iOS',
                     env: 'UAT',
                     appVersion: 'version 1.6.0',
-                    checkValue: '20251105',
+                    checkValue: '20251201',
                     ticketNumber: 'M2025036_R114059',
                     changeLog: 'API改善',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist',
