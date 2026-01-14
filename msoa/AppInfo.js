@@ -6,6 +6,15 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'UAT',
+                    appVersion: 'version 1.4.1',
+                    checkValue: '20260113',
+                    ticketNumber: 'M2025106_R114183',
+                    changeLog: 'API 35',
+                    download: 'https://drive.google.com/file/d/1fi7J_gjmfJ3YBgbZsAoPSibv_cmqssVt/view?usp=sharing',
+                },
+                {
+                    supSystem: 'Android',
+                    env: 'UAT',
                     appVersion: 'version 1.4.0',
                     checkValue: '20251105',
                     ticketNumber: 'M2025036_R114059',
@@ -20,15 +29,6 @@ const App = {
                     ticketNumber: 'M2025036_R114059',
                     changeLog: 'API改善',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist',
-                },
-                {
-                    supSystem: 'Android',
-                    env: 'UAT',
-                    appVersion: 'version 1.3.3',
-                    checkValue: '20250602',
-                    ticketNumber: 'M2025057_R114087',
-                    changeLog: '憑證更新',
-                    download: 'https://drive.google.com/file/d/11ONAIFNPvE9LXMuumThYKIXF6njq6b_d/view?usp=sharing',
                 },
                 {
                     supSystem: 'iOS',
