@@ -42,11 +42,11 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'SIT',
-                    appVersion: 'version 1.3.2',
-                    checkValue: '2025/03/14',
+                    appVersion: 'version 1.4.1',
+                    checkValue: '2026/3/3',
                     ticketNumber: '',
-                    changeLog: 'FCM API update\nCVE 弱點修補\nuse UAT FCM project\n',
-                    download: 'https://drive.google.com/file/d/1o5AKsaXDEFOz-wkVSwxOr1RuvNQ2q_U5/view?usp=sharing',
+                    changeLog: 'API 35\nAPI改善\n',
+                    download: 'https://drive.google.com/file/d/1XPlK8bx4A3YKba7BVV_Abexe11kWgPcJ/view?usp=sharing',
                 },
             ]
         }
