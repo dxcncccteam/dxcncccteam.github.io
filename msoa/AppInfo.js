@@ -25,7 +25,7 @@ const App = {
                     supSystem: 'iOS',
                     env: 'UAT',
                     appVersion: 'version 1.6.2',
-                    checkValue: '20260402',
+                    checkValue: '20260409',
                     ticketNumber: 'INT115066',
                     changeLog: '生物辨識',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist',
