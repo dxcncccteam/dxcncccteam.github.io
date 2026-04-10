@@ -11,7 +11,7 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/scl/fi/0hktgumtol96lugugkh6u/qr_uat_1.3.6_20260108.ipa?rlkey=0to4k1xftla6y9c1h66w4l2if</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/glpqdxurr6i6itft166pd/QR_UAT_1.3.8_20260409.ipa?rlkey=yzic0ib4hudvgqoedpyku8m0x</string>
             </dict>
         </array>
         <key>metadata</key>
@@ -19,7 +19,7 @@
             <key>bundle-identifier</key>
             <string>com.nccc.NcccMerchantQR</string>
             <key>bundle-version</key>
-            <string>1.3.6</string>
+            <string>1.3.8</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>
