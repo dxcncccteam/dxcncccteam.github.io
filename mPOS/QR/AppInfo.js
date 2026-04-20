@@ -25,10 +25,10 @@ const App = {
                     supSystem: 'Android',
                     env: 'UAT',
                     appVersion: 'version 1.4.3',
-                    checkValue: '20260415170839',
+                    checkValue: '20260416155814',
                     ticketNumber: 'M2025132 - R114224',
                     changeLog: 'API符規<br>',
-                    download: 'https://drive.google.com/file/d/1defAHqw0tCyWGqhJu92GCZZ1yiPECAX8/view?usp=sharing',
+                    download: 'https://drive.google.com/file/d/1x5nlJDnhOBgtvkEd6b4dcSVXBkouXeYl/view?usp=sharing',
                 },
                 {
                     supSystem: 'Android',
