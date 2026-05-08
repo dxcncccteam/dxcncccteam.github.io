@@ -11,7 +11,7 @@
                 <key>kind</key>
                 <string>software-package</string>
                 <key>url</key>
-                <string>https://dl.dropboxusercontent.com/scl/fi/au4cz26u083mbwmmx2nnj/mpos_uat_2.7.6_20260108.ipa?rlkey=5kas8xsl6qzc5vpe8n00ovtsr</string>
+                <string>https://dl.dropboxusercontent.com/scl/fi/wha1s9sub20zgizzkx3u3/NCCCmPOS_UAT_2.7.8_20260504.ipa?rlkey=ai689cmr4f48rtb80hykmq7gj</string>
             </dict>
         </array>
         <key>metadata</key>
@@ -19,7 +19,7 @@
             <key>bundle-identifier</key>
             <string>com.nccc.ncccmpos</string>
             <key>bundle-version</key>
-            <string>2.7.6</string>
+            <string>2.7.8</string>
             <key>kind</key>
             <string>software</string>
             <key>title</key>
