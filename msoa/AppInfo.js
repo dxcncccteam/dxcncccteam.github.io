@@ -18,7 +18,7 @@ const App = {
                     appVersion: 'version 1.6.4',
                     checkValue: '20260528',
                     ticketNumber: 'M2025151_R114274',
-                    changeLog: 'XCode 26 <br> SSL伺服器數位憑證年度更新',
+                    changeLog: 'XCode 26 + SSL伺服器數位憑證年度更新',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-uat.plist',
                 },
                 {
