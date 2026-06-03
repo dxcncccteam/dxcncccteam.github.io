@@ -16,10 +16,10 @@ const App = {
                     supSystem: 'Android',
                     env: 'SIT',
                     appVersion: 'version 2.0.9(59)',
-                    checkValue: '2026/04/10',
-                    ticketNumber: 'M2026020_R115048',
-                    changeLog: 'CrossAPI調整卡號遮掩<br>',
-                    download: 'https://drive.google.com/file/d/107TPuKaW-G1-_P1Wc6elZ2iExea3WaFN/view?usp=sharing',
+                    checkValue: '2026/06/03',
+                    ticketNumber: 'M2026045_R115083',
+                    changeLog: 'API 36<br>',
+                    download: 'https://drive.google.com/file/d/1sk7L7ZJHgxbUAuj9SQ934fmLgkxr0FJc/view?usp=drive_link',
                 },
             ]
         }
