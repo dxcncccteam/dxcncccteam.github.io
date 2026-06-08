@@ -6,11 +6,11 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'UAT',
-                    appVersion: 'version 2.0.6(48)',
-                    checkValue: '2025/10',
+                    appVersion: 'version 2.0.9(59)',
+                    checkValue: '2026/04',
                     ticketNumber: '',
-                    changeLog: 'API35<br>',
-                    download: 'https://drive.google.com/file/d/1Gx1lcOEAE84v0HYzdqwabbkhu35xm-IB/view?usp=sharing',
+                    changeLog: 'CrossApp調整遮掩邏輯<br>',
+                    download: 'https://drive.google.com/file/d/16Qn0w96HGZglOdo1aA0Ga6PK9m5ZuY-M/view?usp=sharing',
                 },
                 {
                     supSystem: 'Android',
