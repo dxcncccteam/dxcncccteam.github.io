@@ -48,6 +48,15 @@ const App = {
                     changeLog: 'API 35\nAPI改善\n',
                     download: 'https://drive.google.com/file/d/1XPlK8bx4A3YKba7BVV_Abexe11kWgPcJ/view?usp=sharing',
                 },
+                {
+                    supSystem: 'iOS',
+                    env: 'SIT',
+                    appVersion: 'version 1.6.4',
+                    checkValue: '20260101',
+                    ticketNumber: 'M2026029_R115053',
+                    changeLog: 'SSL伺服器數位憑證年度更新',
+                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-sit.plist',
+                },
             ]
         }
     }
