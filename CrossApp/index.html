@@ -38,71 +38,70 @@
 </style>
 
 <body>
-    <a href="https://dxcncccteam.github.io/" class="material-icons floating-btn">reply</a>
-    <div class="limiter">
-        <div class="container-table100">
-            <div class="wrap-table100">
-                <div class="table">
-                    <div class="row header">
-                        <div class="cell">
-                            App名稱
+        <a href="https://dxcncccteam.github.io/" class="material-icons floating-btn">reply</a>
+        <div class="limiter">
+                <div class="container-table100">
+                        <div class="wrap-table100">
+                                <div class="table">
+                                        <ul id="cross">
+                                                <div class="row header">
+                                                        <div class="cell">
+                                                                App名稱
+                                                        </div>
+                                                        <div class="cell">
+                                                                支援系統
+                                                        </div>
+                                                        <div class="cell">
+                                                                環境
+                                                        </div>
+                                                        <div class="cell">
+                                                                App 版本
+                                                        </div>
+                                                        <div class="cell">
+                                                                需求單號
+                                                        </div>
+                                                        <div class="cell">
+                                                                更新項目
+                                                        </div>
+                                                </div>
+                                                <template v-for="(item, index) in datas" :key="index">
+                                                        <div class="row">
+                                                                <div class="cell" data-title="App名稱">
+                                                                        {{ appName }}
+                                                                </div>
+                                                                <div class="cell" data-title="支援系統">
+                                                                        {{ item.supSystem }}
+                                                                </div>
+                                                                <div class="cell" data-title="環境">
+                                                                        {{ item.env }}
+                                                                </div>
+                                                                <div class="cell" data-title="App 版本">
+                                                                        {{ item.appVersion}} <br>
+                                                                        {{ item.checkValue}}
+                                                                </div>
+                                                                <div class="cell" data-title="需求單號">
+                                                                        <a :href="[item.download]">
+                                                                                {{ item.ticketNumber }} (Download)
+                                                                        </a>
+                                                                </div>
+                                                                <div class="cell" data-title="更新項目">
+                                                                        {{ item.changeLog }}
+                                                                </div>
+                                                        </div>
+                                                </template>
+                                        </ul>
+                                </div>
                         </div>
-                        <div class="cell">
-                            支援系統
-                        </div>
-                        <div class="cell">
-                            環境
-                        </div>
-                        <div class="cell">
-                            App 版本
-                        </div>
-                        <div class="cell">
-                            需求單號
-                        </div>
-                        <div class="cell">
-                            更新項目
-                        </div>
-                        <div class="cell">
-                            下載
-                        </div>
-                    </div>
-                    <div class="row" id="cross">
-                        <div v-for="item in datas" class="cell" data-title="App名稱">
-                            {{ item.AppName }}
-                        </div>
-                        <div v-for="item in datas" class="cell" data-title="支援系統">
-                            {{ item.SupSystem }}
-                        </div>
-                        <div v-for="item in datas" class="cell" data-title="環境">
-                            {{ item.env}}
-                        </div>
-                        <div v-for="item in datas" class="cell" data-title="App 版本">
-                            {{ item.AppVersion}}
-                        </div>
-                        <div v-for="item in datas" class="cell" data-title="需求單號">
-                            {{ item.ticketNumber}}
-                        </div>
-                        <div v-for="item in datas" class="cell" data-title="更新項目">
-                            {{ item.changeLog}}
-                        </div>
-                        <div v-for="item in datas" class="cell" data-title="下載">
-                            <a :href="[item.download]">
-                                Download
-                            </a>
-                        </div>
-                    </div>
                 </div>
-            </div>
         </div>
-    </div>
 
-    <script src="https://dxcncccteam.github.io/js/jquery-3.2.1.min.js"></script>
-    <script src="https://dxcncccteam.github.io/js/popper.js"></script>
-    <script src="https://dxcncccteam.github.io/js/bootstrap.min.js"></script>
-    <script src="https://dxcncccteam.github.io/js/select2.min.js"></script>
-    <script src="https://unpkg.com/vue@3"></script>
-    <script src="../CrossApp/AppInfo.js"></script>
-    <script>Vue.createApp(App).mount('#cross')</script>
+        <script src="https://dxcncccteam.github.io/js/jquery-3.2.1.min.js"></script>
+        <script src="https://dxcncccteam.github.io/js/popper.js"></script>
+        <script src="https://dxcncccteam.github.io/js/bootstrap.min.js"></script>
+        <script src="https://dxcncccteam.github.io/js/select2.min.js"></script>
+        <script src="https://unpkg.com/vue@3"></script>
+        <script src="AppInfo.js"></script>
+        <script>Vue.createApp(App).mount('#cross')</script>
 </body>
 
 </html>
