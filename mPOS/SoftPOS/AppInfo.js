@@ -15,6 +15,15 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'SIT',
+                    appVersion: 'version 3.0.0(61)',
+                    checkValue: '2026/07/16',
+                    ticketNumber: 'M2025140_R114240',
+                    changeLog: 'MPoC<br>',
+                    download: 'https://drive.google.com/file/d/1iWvpAAnNZ0yX_vm21NX0viDCQWMOZhYz/view?usp=sharing',
+                },
+                {
+                    supSystem: 'Android',
+                    env: 'SIT',
                     appVersion: 'version 2.0.9(59)',
                     checkValue: '2026/06/03',
                     ticketNumber: 'M2026045_R115083',
