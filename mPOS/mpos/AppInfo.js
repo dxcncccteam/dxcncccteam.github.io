@@ -40,15 +40,6 @@ const App = {
                     download: 'https://drive.google.com/file/d/1jeW89F4t2brAmfb1YipiRyATnioSiYam/view?usp=sharing',
                 },
                 {
-                    supSystem: 'Android',
-                    env: 'UAT',
-                    appVersion: 'version 2.7.5',
-                    checkValue: '20241029113055',
-                    ticketNumber: 'R113210',
-                    changeLog: 'API 34<br>',
-                    download: 'https://drive.google.com/file/d/1cpUixjOxNL9udl9EVsu11VfjmG2mZCVM/view?usp=drive_link',
-                },
-                {
                     supSystem: 'iOS',
                     env: 'SIT',
                     appVersion: 'version 2.7.0',
@@ -60,11 +51,11 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'SIT',
-                    appVersion: 'version 2.7.9',
-                    checkValue: '2026/01/14(129)',
-                    ticketNumber: 'M2025143 - R114244',
-                    changeLog: '密碼長度調整8碼<br>實驗室覆測<br>憑證更新<br>',
-                    download: 'https://drive.google.com/file/d/1AVAAcwwVAY3LGHEMT8iXS3DvmhQ5jb11/view?usp=sharing',
+                    appVersion: 'version 2.8.2',
+                    checkValue: '2026/08/21(135)',
+                    ticketNumber: 'M2026045 - R115083',
+                    changeLog: 'API 36<br>',
+                    download: 'https://drive.google.com/file/d/1q61ZwSAYq2K-yd1zQfxV-FA_0b40r337/view?usp=sharing',
                 },
             ]
         }
