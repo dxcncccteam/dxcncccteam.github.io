@@ -6,6 +6,15 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'UAT',
+                    appVersion: 'version 3.0.0(61)',
+                    checkValue: '2026/08',
+                    ticketNumber: 'M2025140_R114240',
+                    changeLog: 'MPoC<br>',
+                    download: 'https://drive.google.com/file/d/1r2W7mM1iw2Cija8qamCswiZmWJjXZUZe/view?usp=sharing',
+                },
+                {
+                    supSystem: 'Android',
+                    env: 'UAT',
                     appVersion: 'version 2.0.9(59)',
                     checkValue: '2026/04',
                     ticketNumber: '',
