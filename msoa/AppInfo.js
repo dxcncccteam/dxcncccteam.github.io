@@ -6,6 +6,15 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'UAT',
+                    appVersion: 'version 1.4.3',
+                    checkValue: '20260907',
+                    ticketNumber: 'M2026047_R115087',
+                    changeLog: 'API 36',
+                    download: 'https://drive.google.com/file/d/1oqTQMPnR_H05BsMitK0WmJXQJCKosFsL/view?usp=sharing',
+                },
+                {
+                    supSystem: 'Android',
+                    env: 'UAT',
                     appVersion: 'version 1.4.2',
                     checkValue: '20260528',
                     ticketNumber: 'M2026029_R115053',
@@ -20,15 +29,6 @@ const App = {
                     ticketNumber: 'M2025151_R114274',
                     changeLog: 'XCode 26 + SSL伺服器數位憑證年度更新',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest-uat.plist',
-                },
-                {
-                    supSystem: 'Android',
-                    env: 'UAT',
-                    appVersion: 'version 1.4.1',
-                    checkValue: '20260113',
-                    ticketNumber: 'M2025106_R114183',
-                    changeLog: 'API 35',
-                    download: 'https://drive.google.com/file/d/1fi7J_gjmfJ3YBgbZsAoPSibv_cmqssVt/view?usp=sharing',
                 },
                 {
                     supSystem: 'iOS',
