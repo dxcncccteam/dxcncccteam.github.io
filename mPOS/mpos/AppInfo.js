@@ -57,6 +57,16 @@ const App = {
                     changeLog: 'API 36<br>',
                     download: 'https://drive.google.com/file/d/1q61ZwSAYq2K-yd1zQfxV-FA_0b40r337/view?usp=sharing',
                 },
+                {
+                    supSystem: 'Android',
+                    env: 'SIT',
+                    appVersion: 'version 2.8.2',
+                    checkValue: '2026/09/11(135)',
+                    ticketNumber: 'M2026045 - R115083',
+                    changeLog: 'API 36<br> 新received key<br>',
+                    download: 'https://drive.google.com/file/d/1N_mkKjfKLh4BV0VZwgQuarwOvjjc7bJt/view?usp=sharing',
+                },
+                
             ]
         }
     }
