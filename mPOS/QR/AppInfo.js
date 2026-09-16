@@ -42,11 +42,11 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'SIT',
-                    appVersion: 'version 1.3.9',
-                    checkValue: '2025/09/22 (30)',
-                    ticketNumber: 'M2025099 - R114166',
-                    changeLog: 'API 35<br>',
-                    download: 'https://drive.google.com/file/d/1uyQeVO1qnsTpuu0V7n2WV0NZAe8DE22L/view?usp=sharing',
+                    appVersion: 'version 1.4.4',
+                    checkValue: '2026/09/16 (35)',
+                    ticketNumber: 'M2026045 - R115083',
+                    changeLog: 'API 36<br>',
+                    download: 'https://drive.google.com/file/d/1kOXY1mu3cIz4wYC2I1_MEc_G9W48HbBE/view?usp=sharing',
                 },
             ]
         }
