@@ -7,10 +7,10 @@ const App = {
                     supSystem: 'Android',
                     env: 'UAT',
                     appVersion: 'version 3.0.0(61)',
-                    checkValue: '2026/09/15',
+                    checkValue: '2026/09/17',
                     ticketNumber: 'M2025140_R114240',
                     changeLog: 'MPoC<br>',
-                    download: 'https://drive.google.com/file/d/1ijcxmgHtU9J_7TXy8jxt9Uf1VkDe3tTu/view?usp=sharing',
+                    download: 'https://drive.google.com/file/d/16glyqkgAQ75_h4csQZSVcNRIpFL_4xwo/view?usp=sharing',
                 },
                 {
                     supSystem: 'Android',
