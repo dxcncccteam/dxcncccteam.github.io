@@ -48,6 +48,15 @@ const App = {
                     changeLog: 'API 36<br>',
                     download: 'https://drive.google.com/file/d/1kOXY1mu3cIz4wYC2I1_MEc_G9W48HbBE/view?usp=sharing',
                 },
+                {
+                    supSystem: 'Android',
+                    env: 'SIT',
+                    appVersion: 'version 1.4.4',
+                    checkValue: '2026/09/21 (35)',
+                    ticketNumber: 'M2026045 - R115083',
+                    changeLog: 'API 36<br> update UAT Received key<br>',
+                    download: 'https://drive.google.com/file/d/1yBgd0UKAkqHISHqFfXR8yqmiuMAj6cBA/view?usp=sharing',
+                }
             ]
         }
     }
