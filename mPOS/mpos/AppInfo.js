@@ -6,20 +6,30 @@ const App = {
                 {
                     supSystem: 'iOS',
                     env: 'UAT',
+                    appVersion: 'version 2.7.9',
+                    checkValue: '20261028',
+                    ticketNumber: 'M2026041 - R115080',
+                    changeLog: 'update FCM received key<br>',
+                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/mPOS/mpos/manifest-uat.plist',
+                },
+                {
+                    supSystem: 'iOS',
+                    env: 'UAT',
                     appVersion: 'version 2.7.8',
                     checkValue: '20260504',
                     ticketNumber: 'M2025151 - R114274',
                     changeLog: 'Xcode 26升級<br>',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/mPOS/mpos/manifest-uat_1.plist',
                 },
+                
                 {
-                    supSystem: 'iOS',
+                    supSystem: 'Android',
                     env: 'UAT',
-                    appVersion: 'version 2.7.7',
-                    checkValue: '20260128',
-                    ticketNumber: 'M2025150 - R114277',
-                    changeLog: '更新憑證<br>',
-                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/mPOS/mpos/manifest-uat.plist',
+                    appVersion: 'version 2.8.3',
+                    checkValue: '20261028172909',
+                    ticketNumber: 'M2026041_R115080',
+                    changeLog: 'update FCM received key<br>',
+                    download: 'https://drive.google.com/file/d/1Jwtfbo1hlVOOSf38DxAEYTywAogEiobZ/view?usp=sharing',
                 },
                 {
                     supSystem: 'Android',
@@ -30,15 +40,7 @@ const App = {
                     changeLog: 'API 36<br>',
                     download: 'https://drive.google.com/file/d/1x3p86lLtmWUrd-sqzd-0QfTZi1s6M77y/view?usp=sharing',
                 },
-                {
-                    supSystem: 'Android',
-                    env: 'UAT',
-                    appVersion: 'version 2.8.1',
-                    checkValue: '20260413181910',
-                    ticketNumber: 'M2025132 - R114224',
-                    changeLog: 'QR_API符規<br>build with angela hsm <br>',
-                    download: 'https://drive.google.com/file/d/1jeW89F4t2brAmfb1YipiRyATnioSiYam/view?usp=sharing',
-                },
+                
                 {
                     supSystem: 'iOS',
                     env: 'SIT',
