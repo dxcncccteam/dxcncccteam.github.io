@@ -7,9 +7,9 @@ const App = {
                     supSystem: 'iOS',
                     env: 'UAT',
                     appVersion: 'version 1.4.0',
-                    checkValue: '20261028',
-                    ticketNumber: 'M2026041 - R115080',
-                    changeLog: 'update FCM received key<br>',
+                    checkValue: '20261103',
+                    ticketNumber: 'INT115174',
+                    changeLog: 'TWCA憑證緊急更換<br>',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/mPOS/QR/manifest-uat_1.plist',
                 },
                 {
