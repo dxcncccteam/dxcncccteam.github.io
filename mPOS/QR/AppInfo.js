@@ -6,15 +6,6 @@ const App = {
                 {
                     supSystem: 'iOS',
                     env: 'UAT',
-                    appVersion: 'version 1.4.1',
-                    checkValue: '20261104',
-                    ticketNumber: 'M2026133 - R115238',
-                    changeLog: 'JB 邏輯調整（含上一包 FCM）<br>',
-                    download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/mPOS/QR/manifest-uat_1.plist',
-                },
-                {
-                    supSystem: 'iOS',
-                    env: 'UAT',
                     appVersion: 'version 1.4.0',
                     checkValue: '20261103',
                     ticketNumber: 'INT115174',
