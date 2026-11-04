@@ -42,6 +42,15 @@ const App = {
                 {
                     supSystem: 'Android',
                     env: 'SIT',
+                    appVersion: 'version 1.4.5',
+                    checkValue: '2026/11/04',
+                    ticketNumber: 'INT115xxx',
+                    changeLog: 'TWCA憑證緊急更換',
+                    download: 'https://drive.google.com/file/d/1sswSr1qlxlRyrdyrm-tOw7fYHkHn69V6/view?usp=sharing',
+                },
+                {
+                    supSystem: 'Android',
+                    env: 'SIT',
                     appVersion: 'version 1.4.1',
                     checkValue: '2026/3/3',
                     ticketNumber: '',
