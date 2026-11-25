@@ -25,7 +25,7 @@ const App = {
                     supSystem: 'iOS',
                     env: 'UAT',
                     appVersion: 'version 1.6.5',
-                    checkValue: '20261103',
+                    checkValue: '20261125',
                     ticketNumber: 'INT115xxx',
                     changeLog: 'TWCA憑證緊急更換',
                     download: 'itms-services://?action=download-manifest&url=https://dxcncccteam.github.io/msoa/manifest.plist',
